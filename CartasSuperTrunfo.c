@@ -18,14 +18,16 @@ int main()
   // Entrada de dados
   //  Carta 01
 
-  printf("Cartas do Super Trunfo\n");
-  printf("Carta 1:\n");
+  printf("\n    Cartas do Super Trunfo\n");
+  printf("\n==============================\n");
+  printf("          Carta 1:\n");
+  printf("==============================\n\n");
   printf("Estado: ");
   scanf(" %c", &estado1);
   printf("Código: ");
   scanf("%s", codigo1);
   printf("Nome da Cidade: ");
-  scanf("%s", nome1);
+  scanf(" %[^\n]", nome1);
   printf("População: ");
   scanf("%d", &populacao1);
   printf("Área: ");
@@ -37,13 +39,15 @@ int main()
 
   // Carta 2
 
-  printf("Carta 2:\n");
+  printf("\n==============================\n");
+  printf("          Carta 2:\n");
+  printf("==============================\n\n");
   printf("Estado: ");
   scanf(" %c", &estado2);
   printf("Código: ");
   scanf("%s", codigo2);
   printf("Nome da Cidade: ");
-  scanf("%s", nome2);
+  scanf(" %[^\n]", nome2);
   printf("População: ");
   scanf("%d", &populacao2);
   printf("Área: ");
@@ -56,7 +60,9 @@ int main()
   // Exibição dos dados
   // Carta 01
 
-  printf("Carta 1:\n");
+  printf("\n==============================\n");
+  printf("          Carta 1:\n");
+  printf("==============================\n\n");
   printf("Estado: %c\n", estado1);
   printf("Código: %s\n", codigo1);
   printf("Nome da Cidade: %s\n", nome1);
@@ -67,7 +73,9 @@ int main()
 
   // Carta 02
 
-  printf("Carta 1:\n");
+  printf("\n==============================\n");
+  printf("          Carta 2:\n");
+  printf("==============================\n\n");
   printf("Estado: %c\n", estado2);
   printf("Código: %s\n", codigo2);
   printf("Nome da Cidade: %s\n", nome2);
